@@ -65,7 +65,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  var _reactDom = __webpack_require__(32);
+  var _reactDom = __webpack_require__(34);
 
   var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -100,14 +100,18 @@ module.exports =
       return __webpack_require__(18);
     }, '/works/': function works() {
       return __webpack_require__(19);
-    }, '/works/menkiki': function worksMenkiki() {
+    }, '/works/inkdrop': function worksInkdrop() {
       return __webpack_require__(20);
-    }, '/works/pichu2': function worksPichu2() {
+    }, '/works/menkiki': function worksMenkiki() {
       return __webpack_require__(21);
-    }, '/works/the-four-painters': function worksTheFourPainters() {
+    }, '/works/modetokyo': function worksModetokyo() {
       return __webpack_require__(22);
-    }, '/works/walknote': function worksWalknote() {
+    }, '/works/pichu2': function worksPichu2() {
       return __webpack_require__(23);
+    }, '/works/the-four-painters': function worksTheFourPainters() {
+      return __webpack_require__(24);
+    }, '/works/walknote': function worksWalknote() {
+      return __webpack_require__(25);
     } }; // Auto-generated on build. See tools/lib/routes-loader.js
 
   var route = function route(path, callback) {
@@ -126,7 +130,7 @@ module.exports =
             _componentsLayout2['default'],
             null,
             _react2['default'].createElement(component)
-          )));
+          ), component));
 
         case 6:
         case 'end':
@@ -212,7 +216,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  __webpack_require__(25);
+  __webpack_require__(27);
 
   var _coreLocation = __webpack_require__(6);
 
@@ -389,15 +393,15 @@ module.exports =
 
   var _fbjsLibExecutionEnvironment = __webpack_require__(7);
 
-  var _historyLibCreateBrowserHistory = __webpack_require__(29);
+  var _historyLibCreateBrowserHistory = __webpack_require__(31);
 
   var _historyLibCreateBrowserHistory2 = _interopRequireDefault(_historyLibCreateBrowserHistory);
 
-  var _historyLibCreateMemoryHistory = __webpack_require__(30);
+  var _historyLibCreateMemoryHistory = __webpack_require__(32);
 
   var _historyLibCreateMemoryHistory2 = _interopRequireDefault(_historyLibCreateMemoryHistory);
 
-  var _historyLibUseQueries = __webpack_require__(31);
+  var _historyLibUseQueries = __webpack_require__(33);
 
   var _historyLibUseQueries2 = _interopRequireDefault(_historyLibUseQueries);
 
@@ -434,7 +438,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  __webpack_require__(24);
+  __webpack_require__(26);
 
   var _Navigation = __webpack_require__(9);
 
@@ -508,7 +512,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  __webpack_require__(26);
+  __webpack_require__(28);
 
   var _Link = __webpack_require__(2);
 
@@ -546,6 +550,15 @@ module.exports =
             'a',
             { className: 'Navigation-link', href: 'http://illust.odoruinu.net/' },
             'Illustrations'
+          )
+        ),
+        _react2['default'].createElement(
+          'li',
+          { className: 'Navigation-item' },
+          _react2['default'].createElement(
+            'a',
+            { className: 'Navigation-link', href: 'https://500px.com/noradaiko' },
+            'Photos'
           )
         ),
         _react2['default'].createElement(
@@ -749,7 +762,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  __webpack_require__(27);
+  __webpack_require__(29);
 
   var _default = (function (_Component) {
     _inherits(_default, _Component);
@@ -826,7 +839,7 @@ module.exports =
             _react2['default'].createElement(
               'div',
               null,
-              'He creates digital services/stuffs which he wants itself. He is a \'Digital Craftsman\', that is, he does plan, design, code and operate through all his products. His interests and skills are not limited to a certain platform and a technology but including iOS app, web app, machine learning, etc. He participates many projects as a freelancer who creates new stuff fully customized from scratch.'
+              'He creates digital services/stuffs which he wants itself. He calls himself \'Digital Craftsman\', that is, he does planning, designing, coding and operating through all his products. He makes iOS app, web app and uses machine learning, so his interests and skills are not limited to a certain platform and a technology. He participates many projects as a freelancer who creates new stuff fully customized from scratch.'
             )
           ),
           _react2['default'].createElement(
@@ -885,6 +898,10 @@ module.exports =
           )
         );
       }
+    }], [{
+      key: 'title',
+      value: 'About',
+      enumerable: true
     }]);
 
     return _default;
@@ -1114,7 +1131,7 @@ module.exports =
 
   function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-  __webpack_require__(28);
+  __webpack_require__(30);
 
   var _react = __webpack_require__(1);
 
@@ -1376,6 +1393,10 @@ module.exports =
           )
         );
       }
+    }], [{
+      key: 'title',
+      value: 'Amembo',
+      enumerable: true
     }]);
 
     return _default;
@@ -1623,6 +1644,10 @@ module.exports =
           )
         );
       }
+    }], [{
+      key: 'title',
+      value: 'freeDBTagger',
+      enumerable: true
     }]);
 
     return _default;
@@ -1697,6 +1722,34 @@ module.exports =
               { sm: 6 },
               _react2['default'].createElement(
                 'a',
+                { href: '/works/inkdrop', onClick: _componentsLink2['default'].handleClick },
+                _react2['default'].createElement('img', { src: '/works/inkdrop_eyecatch.png', className: 'image-eyecatch' }),
+                _react2['default'].createElement(
+                  'h3',
+                  null,
+                  'Inkdrop'
+                )
+              ),
+              _react2['default'].createElement(
+                'div',
+                { className: 'work-description' },
+                _react2['default'].createElement(
+                  'div',
+                  null,
+                  'Markdown愛好者のためのノートアプリ'
+                ),
+                _react2['default'].createElement(
+                  'div',
+                  null,
+                  'The Notebook App for Markdown Lovers'
+                )
+              )
+            ),
+            _react2['default'].createElement(
+              _reactBootstrap.Col,
+              { sm: 6 },
+              _react2['default'].createElement(
+                'a',
                 { href: '/works/walknote', onClick: _componentsLink2['default'].handleClick },
                 _react2['default'].createElement('img', { src: '/works/walknote_eyecatch.png', className: 'image-eyecatch' }),
                 _react2['default'].createElement(
@@ -1719,7 +1772,11 @@ module.exports =
                   'Free music discovery player'
                 )
               )
-            ),
+            )
+          ),
+          _react2['default'].createElement(
+            _reactBootstrap.Row,
+            null,
             _react2['default'].createElement(
               _reactBootstrap.Col,
               { sm: 6 },
@@ -1747,11 +1804,7 @@ module.exports =
                   'The four painters: A Video Work Created with Deep Learning'
                 )
               )
-            )
-          ),
-          _react2['default'].createElement(
-            _reactBootstrap.Row,
-            null,
+            ),
             _react2['default'].createElement(
               _reactBootstrap.Col,
               { sm: 6 },
@@ -1777,6 +1830,44 @@ module.exports =
                   'div',
                   null,
                   'The app which can show ramen shops based on a photo of ramen you want to eat'
+                )
+              )
+            )
+          ),
+          _react2['default'].createElement('hr', null),
+          _react2['default'].createElement(
+            'h2',
+            null,
+            'Collaborations'
+          ),
+          _react2['default'].createElement(
+            _reactBootstrap.Row,
+            null,
+            _react2['default'].createElement(
+              _reactBootstrap.Col,
+              { sm: 6 },
+              _react2['default'].createElement(
+                'a',
+                { href: '/works/modetokyo', onClick: _componentsLink2['default'].handleClick },
+                _react2['default'].createElement('img', { src: '/works/modetokyo_eyecatch.png', className: 'image-eyecatch' }),
+                _react2['default'].createElement(
+                  'h3',
+                  null,
+                  'mode.tokyo'
+                )
+              ),
+              _react2['default'].createElement(
+                'div',
+                { className: 'work-description' },
+                _react2['default'].createElement(
+                  'div',
+                  null,
+                  '日本のモードを世界に発信する雑誌'
+                ),
+                _react2['default'].createElement(
+                  'div',
+                  null,
+                  'The mode magazine for understanding to personally enjoy Japan'
                 )
               )
             )
@@ -1887,6 +1978,10 @@ module.exports =
           )
         );
       }
+    }], [{
+      key: 'title',
+      value: 'Works',
+      enumerable: true
     }]);
 
     return _default;
@@ -1897,6 +1992,178 @@ module.exports =
 
 /***/ },
 /* 20 */
+/***/ function(module, exports, __webpack_require__) {
+
+  /**
+   * React Static Boilerplate
+   * https://github.com/koistya/react-static-boilerplate
+   * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
+   */
+
+  'use strict';
+
+  Object.defineProperty(exports, '__esModule', {
+    value: true
+  });
+
+  var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+  var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+  function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+  function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+  var _react = __webpack_require__(1);
+
+  var _react2 = _interopRequireDefault(_react);
+
+  var _componentsLink = __webpack_require__(2);
+
+  var _componentsLink2 = _interopRequireDefault(_componentsLink);
+
+  var _reactBootstrap = __webpack_require__(3);
+
+  __webpack_require__(4);
+
+  var _default = (function (_Component) {
+    _inherits(_default, _Component);
+
+    function _default() {
+      _classCallCheck(this, _default);
+
+      _get(Object.getPrototypeOf(_default.prototype), 'constructor', this).apply(this, arguments);
+    }
+
+    _createClass(_default, [{
+      key: 'render',
+      value: function render() {
+        return _react2['default'].createElement(
+          'div',
+          { className: 'work-detail' },
+          _react2['default'].createElement(
+            'h2',
+            null,
+            _react2['default'].createElement(
+              'a',
+              { href: '/works/', onClick: _componentsLink2['default'].handleClick },
+              'Works'
+            ),
+            _react2['default'].createElement(
+              'span',
+              { className: 'breadcrumb-chevron' },
+              '>'
+            ),
+            'Inkdrop'
+          ),
+          _react2['default'].createElement(
+            _reactBootstrap.Row,
+            null,
+            _react2['default'].createElement(
+              _reactBootstrap.Col,
+              { sm: 6 },
+              _react2['default'].createElement('img', { src: '/works/inkdrop_eyecatch.png', className: 'image-eyecatch' })
+            ),
+            _react2['default'].createElement(
+              _reactBootstrap.Col,
+              { sm: 6 },
+              _react2['default'].createElement(
+                'h3',
+                null,
+                'Inkdrop (2016-)'
+              ),
+              _react2['default'].createElement(
+                'div',
+                { className: 'work-description' },
+                _react2['default'].createElement(
+                  'div',
+                  null,
+                  'Markdown愛好者のためのノートアプリ'
+                ),
+                _react2['default'].createElement(
+                  'div',
+                  null,
+                  'The Notebook App for Markdown Lovers'
+                )
+              ),
+              _react2['default'].createElement(
+                'div',
+                null,
+                _react2['default'].createElement(
+                  'ul',
+                  null,
+                  _react2['default'].createElement(
+                    'li',
+                    null,
+                    _react2['default'].createElement(
+                      'a',
+                      { href: 'https://www.inkdrop.info/' },
+                      '公式サイト'
+                    )
+                  ),
+                  _react2['default'].createElement(
+                    'li',
+                    null,
+                    '対応OS: Windows/macOS/Linux'
+                  )
+                )
+              ),
+              _react2['default'].createElement(
+                'div',
+                { className: 'work-long-description' },
+                _react2['default'].createElement(
+                  'ul',
+                  null,
+                  _react2['default'].createElement(
+                    'li',
+                    null,
+                    'ブログ記事: ',
+                    _react2['default'].createElement(
+                      'a',
+                      { href: 'http://blog.odoruinu.net/2016/10/04/inkdrop/' },
+                      'ハッカー向けノートアプリ「Inkdrop」をリリースしました'
+                    )
+                  )
+                )
+              )
+            )
+          ),
+          _react2['default'].createElement(
+            _reactBootstrap.Row,
+            null,
+            _react2['default'].createElement(
+              _reactBootstrap.Col,
+              { sm: 12 },
+              _react2['default'].createElement(
+                'h4',
+                null,
+                'スクリーンショット'
+              ),
+              _react2['default'].createElement(
+                'a',
+                { href: '/works/inkdrop_01.png', target: '_blank' },
+                _react2['default'].createElement('img', { src: '/works/inkdrop_01.png', className: 'image-screenshot' })
+              )
+            )
+          )
+        );
+      }
+    }], [{
+      key: 'title',
+      value: 'Inkdrop',
+      enumerable: true
+    }]);
+
+    return _default;
+  })(_react.Component);
+
+  exports['default'] = _default;
+  module.exports = exports['default'];
+
+/***/ },
+/* 21 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -1973,7 +2240,7 @@ module.exports =
               _react2['default'].createElement(
                 'h3',
                 null,
-                '麺利き'
+                '麺利き (2015)'
               ),
               _react2['default'].createElement(
                 'div',
@@ -2040,6 +2307,10 @@ module.exports =
           )
         );
       }
+    }], [{
+      key: 'title',
+      value: '麺利き',
+      enumerable: true
     }]);
 
     return _default;
@@ -2049,7 +2320,170 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 21 */
+/* 22 */
+/***/ function(module, exports, __webpack_require__) {
+
+  /**
+   * React Static Boilerplate
+   * https://github.com/koistya/react-static-boilerplate
+   * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
+   */
+
+  'use strict';
+
+  Object.defineProperty(exports, '__esModule', {
+    value: true
+  });
+
+  var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+  var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+  function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+  function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+  var _react = __webpack_require__(1);
+
+  var _react2 = _interopRequireDefault(_react);
+
+  var _componentsLink = __webpack_require__(2);
+
+  var _componentsLink2 = _interopRequireDefault(_componentsLink);
+
+  var _reactBootstrap = __webpack_require__(3);
+
+  __webpack_require__(4);
+
+  var _default = (function (_Component) {
+    _inherits(_default, _Component);
+
+    function _default() {
+      _classCallCheck(this, _default);
+
+      _get(Object.getPrototypeOf(_default.prototype), 'constructor', this).apply(this, arguments);
+    }
+
+    _createClass(_default, [{
+      key: 'render',
+      value: function render() {
+        return _react2['default'].createElement(
+          'div',
+          { className: 'work-detail' },
+          _react2['default'].createElement(
+            'h2',
+            null,
+            _react2['default'].createElement(
+              'a',
+              { href: '/works/', onClick: _componentsLink2['default'].handleClick },
+              'Collaborations'
+            ),
+            _react2['default'].createElement(
+              'span',
+              { className: 'breadcrumb-chevron' },
+              '>'
+            ),
+            'mode.tokyo'
+          ),
+          _react2['default'].createElement(
+            _reactBootstrap.Row,
+            null,
+            _react2['default'].createElement(
+              _reactBootstrap.Col,
+              { sm: 6 },
+              _react2['default'].createElement('img', { src: '/works/modetokyo_eyecatch.png', className: 'image-eyecatch' }),
+              _react2['default'].createElement(
+                'h3',
+                null,
+                'mode.tokyo (2016)'
+              ),
+              _react2['default'].createElement(
+                'div',
+                { className: 'work-description' },
+                _react2['default'].createElement(
+                  'div',
+                  null,
+                  '日本のモードを世界に発信する雑誌'
+                ),
+                _react2['default'].createElement(
+                  'div',
+                  null,
+                  'The mode magazine for understanding to personally enjoy Japan'
+                )
+              ),
+              _react2['default'].createElement(
+                'div',
+                null,
+                _react2['default'].createElement(
+                  'ul',
+                  null,
+                  _react2['default'].createElement(
+                    'li',
+                    null,
+                    _react2['default'].createElement(
+                      'a',
+                      { href: 'http://www.mode.tokyo/' },
+                      'ウェブサイト'
+                    )
+                  )
+                )
+              ),
+              _react2['default'].createElement(
+                'div',
+                { className: 'work-long-description' },
+                _react2['default'].createElement(
+                  'p',
+                  null,
+                  '電子版としてiOSアプリを担当。日英仏対応。 きゅんくんやラブリーサマーちゃんなどを誌面で取り上げている。 本雑誌はISIDイノラボ様と角川アスキー総合研究所様の共同プロジェクトです。'
+                ),
+                _react2['default'].createElement(
+                  'ul',
+                  null,
+                  _react2['default'].createElement(
+                    'li',
+                    null,
+                    _react2['default'].createElement(
+                      'a',
+                      { href: 'http://www.isid.co.jp/news/2015/0930.html' },
+                      'ISID、メディアコンテンツが外国人富裕層の訪日行動に与える影響を可視化する研究プロジェクトを始動（2015年09月30日）：プレスリリース| ISID'
+                    )
+                  )
+                )
+              )
+            ),
+            _react2['default'].createElement(
+              _reactBootstrap.Col,
+              { sm: 6 },
+              _react2['default'].createElement(
+                'a',
+                { href: '/works/modetokyo_01.png', target: '_blank' },
+                _react2['default'].createElement('img', { src: '/works/modetokyo_01.png', className: 'image-screenshot' })
+              ),
+              _react2['default'].createElement(
+                'a',
+                { href: '/works/modetokyo_02.png', target: '_blank' },
+                _react2['default'].createElement('img', { src: '/works/modetokyo_02.png', className: 'image-screenshot' })
+              )
+            )
+          )
+        );
+      }
+    }], [{
+      key: 'title',
+      value: 'mode.tokyo',
+      enumerable: true
+    }]);
+
+    return _default;
+  })(_react.Component);
+
+  exports['default'] = _default;
+  module.exports = exports['default'];
+
+/***/ },
+/* 23 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -2196,6 +2630,10 @@ module.exports =
           )
         );
       }
+    }], [{
+      key: 'title',
+      value: 'pichu*pichu',
+      enumerable: true
     }]);
 
     return _default;
@@ -2205,7 +2643,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 22 */
+/* 24 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -2282,7 +2720,7 @@ module.exports =
               _react2['default'].createElement(
                 'h3',
                 null,
-                'the four painters'
+                'the four painters (2015)'
               ),
               _react2['default'].createElement(
                 'div',
@@ -2382,6 +2820,10 @@ module.exports =
           )
         );
       }
+    }], [{
+      key: 'title',
+      value: 'The Four Painters',
+      enumerable: true
     }]);
 
     return _default;
@@ -2391,7 +2833,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 23 */
+/* 25 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -2468,7 +2910,7 @@ module.exports =
               _react2['default'].createElement(
                 'h3',
                 null,
-                'walknote'
+                'walknote (2011-2016)'
               ),
               _react2['default'].createElement(
                 'div',
@@ -2482,16 +2924,18 @@ module.exports =
                   'div',
                   null,
                   'Free music discovery player'
-                ),
-                _react2['default'].createElement(
-                  'div',
-                  null,
-                  _react2['default'].createElement(
-                    'a',
-                    { className: 'link-appstore', href: 'https://itunes.apple.com/app/walknote-haomiwo-li-jieshite/id465898375?mt=8' },
-                    _react2['default'].createElement('img', { src: '/works/appstore.png', className: 'image-appstore' })
-                  )
                 )
+              ),
+              _react2['default'].createElement(
+                'div',
+                { className: 'work-long-description' },
+                '本サービスは終了しました。 イギリスのスタートアップからバイアウトの話が来ましたが、残念ながらまとまりませんでした。 13万人ものユーザさまに使っていただき本当に感謝しています。 詳細は',
+                _react2['default'].createElement(
+                  'a',
+                  { href: 'http://blog.odoruinu.net/2016/09/06/farewell-from-walknote/' },
+                  'こちら'
+                ),
+                '。'
               )
             ),
             _react2['default'].createElement(
@@ -2556,6 +3000,10 @@ module.exports =
           )
         );
       }
+    }], [{
+      key: 'title',
+      value: 'walknote',
+      enumerable: true
     }]);
 
     return _default;
@@ -2565,7 +3013,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 24 */
+/* 26 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(5)();
@@ -2579,7 +3027,7 @@ module.exports =
 
 
 /***/ },
-/* 25 */
+/* 27 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(5)();
@@ -2593,7 +3041,7 @@ module.exports =
 
 
 /***/ },
-/* 26 */
+/* 28 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(5)();
@@ -2607,7 +3055,7 @@ module.exports =
 
 
 /***/ },
-/* 27 */
+/* 29 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(5)();
@@ -2621,7 +3069,7 @@ module.exports =
 
 
 /***/ },
-/* 28 */
+/* 30 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(5)();
@@ -2635,25 +3083,25 @@ module.exports =
 
 
 /***/ },
-/* 29 */
+/* 31 */
 /***/ function(module, exports) {
 
   module.exports = require("history/lib/createBrowserHistory");
 
 /***/ },
-/* 30 */
+/* 32 */
 /***/ function(module, exports) {
 
   module.exports = require("history/lib/createMemoryHistory");
 
 /***/ },
-/* 31 */
+/* 33 */
 /***/ function(module, exports) {
 
   module.exports = require("history/lib/useQueries");
 
 /***/ },
-/* 32 */
+/* 34 */
 /***/ function(module, exports) {
 
   module.exports = require("react-dom");
