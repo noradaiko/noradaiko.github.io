@@ -623,10 +623,11 @@ module.exports =
   var _default = (function (_Component) {
     _inherits(_default, _Component);
 
-    function _default() {
+    function _default(props) {
       _classCallCheck(this, _default);
 
-      _get(Object.getPrototypeOf(_default.prototype), 'constructor', this).apply(this, arguments);
+      _get(Object.getPrototypeOf(_default.prototype), 'constructor', this).call(this, props);
+      this.state = {};
     }
 
     _createClass(_default, [{
@@ -636,27 +637,50 @@ module.exports =
           var pathname = window.location.pathname;
 
           if (pathname.startsWith('/blog')) {
-            window.location.replace('http://blog.odoruinu.net' + pathname);
+            var redirectTo = 'http://blog.odoruinu.net' + pathname;
+            window.location.replace(redirectTo);
+            this.setState({ redirectTo: redirectTo });
           }
         }
       }
     }, {
       key: 'render',
       value: function render() {
-        return _react2['default'].createElement(
-          'div',
-          null,
-          _react2['default'].createElement(
-            'h1',
+        if (this.state.redirectTo) {
+          return _react2['default'].createElement(
+            'div',
             null,
-            'Not Found'
-          ),
-          _react2['default'].createElement(
-            'p',
+            _react2['default'].createElement(
+              'h1',
+              null,
+              'Redirecting...'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              _react2['default'].createElement(
+                'a',
+                { href: this.state.redirectTo },
+                this.state.redirectTo
+              )
+            )
+          );
+        } else {
+          return _react2['default'].createElement(
+            'div',
             null,
-            'The page you\'re looking for was not found.'
-          )
-        );
+            _react2['default'].createElement(
+              'h1',
+              null,
+              'Not Found'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'The page you\'re looking for was not found.'
+            )
+          );
+        }
       }
     }]);
 
