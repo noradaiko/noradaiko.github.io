@@ -793,6 +793,8 @@ module.exports =
 
   __webpack_require__(26);
 
+  var _reactBootstrap = __webpack_require__(3);
+
   var _default = (function (_Component) {
     _inherits(_default, _Component);
 
@@ -819,6 +821,12 @@ module.exports =
             'Digital Craftsman ( Artist / Developer / Designer )'
           ),
           _react2['default'].createElement(
+            'p',
+            null,
+            _react2['default'].createElement(_reactBootstrap.Glyphicon, { glyph: 'map-marker' }),
+            ' Tokyo, Japan'
+          ),
+          _react2['default'].createElement(
             'div',
             null,
             _react2['default'].createElement('img', { className: 'top-image', src: 'https://farm6.staticflickr.com/5688/22863546315_12dd51f402_h.jpg', width: '100%', alt: 'L1011534' })
@@ -829,7 +837,7 @@ module.exports =
             _react2['default'].createElement(
               'strong',
               null,
-              'Bio: '
+              'Bio:'
             ),
             _react2['default'].createElement(
               'div',
@@ -849,7 +857,7 @@ module.exports =
             _react2['default'].createElement(
               'div',
               null,
-              '2012 独立 / Currently working as a freelancer'
+              '2012 to present フリーランス / Freelance'
             )
           ),
           _react2['default'].createElement(
@@ -858,7 +866,7 @@ module.exports =
             _react2['default'].createElement(
               'strong',
               null,
-              'Work: '
+              'Work:'
             ),
             _react2['default'].createElement(
               'div',
@@ -868,7 +876,7 @@ module.exports =
             _react2['default'].createElement(
               'div',
               null,
-              'He creates digital services/stuffs which he wants itself. He calls himself \'Digital Craftsman\', that is, he does planning, designing, coding and operating through all his products. He makes iOS app, web app and uses machine learning, so his interests and skills are not limited to a certain platform and a technology. He participates many projects as a freelancer who creates new stuff fully customized from scratch.'
+              'Takuya is a freelance and a full-stack developer based in Tokyo with passion for building digital services/stuffs he wants. He has a knack for all things launching products, from planning and designing all the way to solving real-life problems with code. When not online, he loves hanging out with his camera.'
             )
           ),
           _react2['default'].createElement(
