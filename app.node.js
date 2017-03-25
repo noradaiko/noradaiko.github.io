@@ -65,7 +65,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  var _reactDom = __webpack_require__(31);
+  var _reactDom = __webpack_require__(32);
 
   var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -102,10 +102,12 @@ module.exports =
       return __webpack_require__(19);
     }, '/works/pichu2': function worksPichu2() {
       return __webpack_require__(20);
-    }, '/works/the-four-painters': function worksTheFourPainters() {
+    }, '/works/styly': function worksStyly() {
       return __webpack_require__(21);
-    }, '/works/walknote': function worksWalknote() {
+    }, '/works/the-four-painters': function worksTheFourPainters() {
       return __webpack_require__(22);
+    }, '/works/walknote': function worksWalknote() {
+      return __webpack_require__(23);
     } }; // Auto-generated on build. See tools/lib/routes-loader.js
 
   var route = function route(path, callback) {
@@ -210,7 +212,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  __webpack_require__(24);
+  __webpack_require__(25);
 
   var _coreLocation = __webpack_require__(6);
 
@@ -387,15 +389,15 @@ module.exports =
 
   var _fbjsLibExecutionEnvironment = __webpack_require__(7);
 
-  var _historyLibCreateBrowserHistory = __webpack_require__(28);
+  var _historyLibCreateBrowserHistory = __webpack_require__(29);
 
   var _historyLibCreateBrowserHistory2 = _interopRequireDefault(_historyLibCreateBrowserHistory);
 
-  var _historyLibCreateMemoryHistory = __webpack_require__(29);
+  var _historyLibCreateMemoryHistory = __webpack_require__(30);
 
   var _historyLibCreateMemoryHistory2 = _interopRequireDefault(_historyLibCreateMemoryHistory);
 
-  var _historyLibUseQueries = __webpack_require__(30);
+  var _historyLibUseQueries = __webpack_require__(31);
 
   var _historyLibUseQueries2 = _interopRequireDefault(_historyLibUseQueries);
 
@@ -432,7 +434,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  __webpack_require__(23);
+  __webpack_require__(24);
 
   var _Navigation = __webpack_require__(9);
 
@@ -506,7 +508,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  __webpack_require__(25);
+  __webpack_require__(26);
 
   var _Link = __webpack_require__(2);
 
@@ -791,7 +793,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  __webpack_require__(26);
+  __webpack_require__(27);
 
   var _reactBootstrap = __webpack_require__(3);
 
@@ -973,7 +975,7 @@ module.exports =
 
   function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-  __webpack_require__(27);
+  __webpack_require__(28);
 
   var _react = __webpack_require__(1);
 
@@ -1710,6 +1712,34 @@ module.exports =
                   'div',
                   null,
                   'The mode magazine for understanding to personally enjoy Japan'
+                )
+              )
+            ),
+            _react2['default'].createElement(
+              _reactBootstrap.Col,
+              { sm: 6 },
+              _react2['default'].createElement(
+                'a',
+                { href: '/works/styly', onClick: _componentsLink2['default'].handleClick },
+                _react2['default'].createElement('img', { src: '/works/styly_eyecatch.png', className: 'image-eyecatch' }),
+                _react2['default'].createElement(
+                  'h3',
+                  null,
+                  'STYLY'
+                )
+              ),
+              _react2['default'].createElement(
+                'div',
+                { className: 'work-description' },
+                _react2['default'].createElement(
+                  'div',
+                  null,
+                  'ファッションブランドのためのVRツール'
+                ),
+                _react2['default'].createElement(
+                  'div',
+                  null,
+                  'VR Creative tools for fashion brand'
                 )
               )
             )
@@ -2543,6 +2573,151 @@ module.exports =
             _react2['default'].createElement(
               'a',
               { href: '/works/', onClick: _componentsLink2['default'].handleClick },
+              'Collaborations'
+            ),
+            _react2['default'].createElement(
+              'span',
+              { className: 'breadcrumb-chevron' },
+              '>'
+            ),
+            'STYLY'
+          ),
+          _react2['default'].createElement(
+            _reactBootstrap.Row,
+            null,
+            _react2['default'].createElement(
+              _reactBootstrap.Col,
+              { sm: 6 },
+              _react2['default'].createElement('img', { src: '/works/styly_eyecatch.png', className: 'image-eyecatch' }),
+              _react2['default'].createElement(
+                'h3',
+                null,
+                'STYLY (2017, Psychic VR Lab)'
+              ),
+              _react2['default'].createElement(
+                'div',
+                { className: 'work-description' },
+                _react2['default'].createElement(
+                  'div',
+                  null,
+                  'ファッションブランドのためのVRツール'
+                ),
+                _react2['default'].createElement(
+                  'div',
+                  null,
+                  'VR Creative tools for fashion brand'
+                )
+              ),
+              _react2['default'].createElement(
+                'div',
+                null,
+                _react2['default'].createElement(
+                  'ul',
+                  null,
+                  _react2['default'].createElement(
+                    'li',
+                    null,
+                    _react2['default'].createElement(
+                      'a',
+                      { href: 'http://suite.styly.cc/' },
+                      'Website'
+                    )
+                  )
+                )
+              ),
+              _react2['default'].createElement(
+                'div',
+                { className: 'work-long-description' },
+                _react2['default'].createElement(
+                  'p',
+                  null,
+                  'This is a VR tool for building virtual space towards extending fashion brand\'s expression ability of their concept. I developed its web UIs and backend.'
+                )
+              )
+            ),
+            _react2['default'].createElement(
+              _reactBootstrap.Col,
+              { sm: 6 },
+              _react2['default'].createElement(
+                'a',
+                { href: '/works/styly_01.png', target: '_blank' },
+                _react2['default'].createElement('img', { src: '/works/styly_01.png', className: 'image-screenshot' })
+              )
+            )
+          )
+        );
+      }
+    }], [{
+      key: 'title',
+      value: 'STYLY',
+      enumerable: true
+    }]);
+
+    return _default;
+  })(_react.Component);
+
+  exports['default'] = _default;
+  module.exports = exports['default'];
+
+/***/ },
+/* 22 */
+/***/ function(module, exports, __webpack_require__) {
+
+  /**
+   * React Static Boilerplate
+   * https://github.com/koistya/react-static-boilerplate
+   * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
+   */
+
+  'use strict';
+
+  Object.defineProperty(exports, '__esModule', {
+    value: true
+  });
+
+  var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+  var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+  function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+  function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+  var _react = __webpack_require__(1);
+
+  var _react2 = _interopRequireDefault(_react);
+
+  var _componentsLink = __webpack_require__(2);
+
+  var _componentsLink2 = _interopRequireDefault(_componentsLink);
+
+  var _reactBootstrap = __webpack_require__(3);
+
+  __webpack_require__(4);
+
+  var _default = (function (_Component) {
+    _inherits(_default, _Component);
+
+    function _default() {
+      _classCallCheck(this, _default);
+
+      _get(Object.getPrototypeOf(_default.prototype), 'constructor', this).apply(this, arguments);
+    }
+
+    _createClass(_default, [{
+      key: 'render',
+      value: function render() {
+        return _react2['default'].createElement(
+          'div',
+          { className: 'work-detail' },
+          _react2['default'].createElement(
+            'h2',
+            null,
+            _react2['default'].createElement(
+              'a',
+              { href: '/works/', onClick: _componentsLink2['default'].handleClick },
               'Works'
             ),
             _react2['default'].createElement(
@@ -2675,7 +2850,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 22 */
+/* 23 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -2855,7 +3030,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 23 */
+/* 24 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(5)();
@@ -2869,7 +3044,7 @@ module.exports =
 
 
 /***/ },
-/* 24 */
+/* 25 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(5)();
@@ -2883,7 +3058,7 @@ module.exports =
 
 
 /***/ },
-/* 25 */
+/* 26 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(5)();
@@ -2897,7 +3072,7 @@ module.exports =
 
 
 /***/ },
-/* 26 */
+/* 27 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(5)();
@@ -2911,7 +3086,7 @@ module.exports =
 
 
 /***/ },
-/* 27 */
+/* 28 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(5)();
@@ -2925,25 +3100,25 @@ module.exports =
 
 
 /***/ },
-/* 28 */
+/* 29 */
 /***/ function(module, exports) {
 
   module.exports = require("history/lib/createBrowserHistory");
 
 /***/ },
-/* 29 */
+/* 30 */
 /***/ function(module, exports) {
 
   module.exports = require("history/lib/createMemoryHistory");
 
 /***/ },
-/* 30 */
+/* 31 */
 /***/ function(module, exports) {
 
   module.exports = require("history/lib/useQueries");
 
 /***/ },
-/* 31 */
+/* 32 */
 /***/ function(module, exports) {
 
   module.exports = require("react-dom");
