@@ -854,7 +854,7 @@ module.exports =
             _react2['default'].createElement(
               'div',
               null,
-              '2010 ヤフー株式会社入社 / Works at Yahoo! Japan'
+              '2010 ヤフー株式会社入社 / Worked at Yahoo! Japan'
             ),
             _react2['default'].createElement(
               'div',
