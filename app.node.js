@@ -553,7 +553,7 @@ module.exports =
           { className: 'Navigation-item' },
           _react2['default'].createElement(
             'a',
-            { className: 'Navigation-link', href: 'https://500px.com/noradaiko' },
+            { className: 'Navigation-link', href: 'https://500px.com/craftzdog' },
             'Photos'
           )
         ),
@@ -572,7 +572,7 @@ module.exports =
         { className: 'Navigation-icon-group' },
         _react2['default'].createElement(
           'a',
-          { className: 'Navigation-link Navigation-icon', href: 'https://www.instagram.com/noradaiko/' },
+          { className: 'Navigation-link Navigation-icon', href: 'https://www.instagram.com/craftzdog/' },
           _react2['default'].createElement('i', { className: 'fa fa-instagram' })
         ),
         _react2['default'].createElement(
@@ -582,7 +582,7 @@ module.exports =
         ),
         _react2['default'].createElement(
           'a',
-          { className: 'Navigation-link Navigation-icon', href: 'https://twitter.com/noradaiko' },
+          { className: 'Navigation-link Navigation-icon', href: 'https://twitter.com/craftzdog' },
           _react2['default'].createElement('i', { className: 'fa fa-twitter' })
         )
       )
@@ -911,8 +911,8 @@ module.exports =
                 null,
                 _react2['default'].createElement(
                   'a',
-                  { href: 'https://twitter.com/noradaiko' },
-                  'Twitter @noradaiko'
+                  { href: 'https://twitter.com/craftzdog' },
+                  'Twitter @craftzdog'
                 )
               ),
               _react2['default'].createElement(
