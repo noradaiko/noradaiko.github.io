@@ -562,7 +562,7 @@ module.exports =
           { className: 'Navigation-item' },
           _react2['default'].createElement(
             'a',
-            { className: 'Navigation-link', href: 'http://blog.odoruinu.net/' },
+            { className: 'Navigation-link', href: 'https://medium.com/odoruinu' },
             'Blog'
           )
         )
@@ -577,7 +577,7 @@ module.exports =
         ),
         _react2['default'].createElement(
           'a',
-          { className: 'Navigation-link Navigation-icon', href: 'https://github.com/noradaiko' },
+          { className: 'Navigation-link Navigation-icon', href: 'https://github.com/craftzdog' },
           _react2['default'].createElement('i', { className: 'fa fa-github' })
         ),
         _react2['default'].createElement(
@@ -831,7 +831,7 @@ module.exports =
           _react2['default'].createElement(
             'div',
             null,
-            _react2['default'].createElement('img', { className: 'top-image', src: 'https://farm6.staticflickr.com/5688/22863546315_12dd51f402_h.jpg', width: '100%', alt: 'L1011534' })
+            _react2['default'].createElement('img', { className: 'top-image', src: 'https://farm5.staticflickr.com/4161/34587513605_271b49457a_k_d.jpg', width: '100%', alt: 'My Work Style' })
           ),
           _react2['default'].createElement(
             'div',
@@ -912,7 +912,7 @@ module.exports =
                 _react2['default'].createElement(
                   'a',
                   { href: 'https://twitter.com/craftzdog' },
-                  'Twitter @craftzdog'
+                  'Twitter'
                 )
               ),
               _react2['default'].createElement(
@@ -920,7 +920,7 @@ module.exports =
                 null,
                 _react2['default'].createElement(
                   'a',
-                  { href: 'https://github.com/noradaiko' },
+                  { href: 'https://github.com/craftzdog' },
                   'GitHub'
                 )
               ),
